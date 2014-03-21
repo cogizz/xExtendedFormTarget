@@ -1,4 +1,4 @@
-<?php if (!defined('TL_ROOT')) die('You cannot access this file directly!');
+<?php
 
 /**
  * Contao Open Source CMS
@@ -27,8 +27,10 @@
  * @license    LGPL
  * @filesource
  */
- 
-class ExtendedFormTarget extends Frontend {
+
+namespace cogizz;
+
+class ExtendedFormTarget extends \Frontend {
  	
 	/**
 	 * modify the form template output change the action and the form target

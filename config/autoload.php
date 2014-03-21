@@ -12,9 +12,19 @@
 
 
 /**
+ * Register the namespaces
+ */
+ClassLoader::addNamespaces(array
+(
+	'cogizz',
+));
+
+
+/**
  * Register the classes
  */
 ClassLoader::addClasses(array
 (
-	'ExtendedFormTarget' => 'system/modules/xExtendedFormTarget/ExtendedFormTarget.php',
+	// Classes
+	'cogizz\ExtendedFormTarget' => 'system/modules/xExtendedFormTarget/classes/ExtendedFormTarget.php',
 ));
