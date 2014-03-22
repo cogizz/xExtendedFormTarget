@@ -51,7 +51,7 @@ $GLOBALS['TL_DCA']['tl_form']['fields']['externalTarget'] = array
 (
 	'label'	=> &$GLOBALS['TL_LANG']['tl_form']['externalTarget'],
 	'inputType'	=> 'text',
-	'eval'	=> array('tl_class'=>'clr w50','maxlenght' => 255,'rgxp' =>'url')
+	'eval'	=> array('tl_class'=>'clr w50','maxlength' => 255,'rgxp' =>'url')
 );
 
 $GLOBALS['TL_DCA']['tl_form']['fields']['formTarget'] = array
